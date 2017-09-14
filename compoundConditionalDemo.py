@@ -11,5 +11,8 @@ elif num > 0:
     
 elif num < 0 and num % 7 == 0:
     print('Your number is negitive and divisible by 7')
-elif num > 0:
+elif num < 0:
     print('Your number is negitive and not divisible by 7 :<( ')
+
+else:
+    print('your number is zero')
