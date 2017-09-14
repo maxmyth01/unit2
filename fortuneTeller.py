@@ -6,4 +6,11 @@ color = input('Pick red or blue')
 num = int(input('Pick a number from 1-4: '))
 
 if color == 'red':
-    print('yes')
+    if num == 1:
+        print('You will win the lottery')
+    elif num == 2:
+        print('Your life will be terribe')
+    elif num == 3:
+         print('You will live a long happy life')
+    elif num == 4:
+        print('You will ')
