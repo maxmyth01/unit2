@@ -13,4 +13,17 @@ if color == 'red':
     elif num == 3:
          print('You will live a long happy life')
     elif num == 4:
-        print('You will ')
+        print('You will be a terrific programmer')
+        
+elif color == 'blue':
+    if num == 1:
+        print('You will drown in a river')
+    elif num == 2:
+        print('You will become old and wise')
+    elif num == 3:
+         print('You will achieve your goals')
+    elif num == 4:
+        print('You are a terrible programmer')
+        
+else:
+    print('invalid color')
