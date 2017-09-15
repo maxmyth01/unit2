@@ -6,15 +6,15 @@ from random import randint
 
 insultNum = randint(1,5)
 
-input('Enter your name')
+name = input('Enter your name')
 
 if insultNum == 1:
     print('You Suck at life')
 if insultNum == 2:
-    print('')
+    print('Everyone is smarter than you')
 if insultNum == 3:
-    print('You Suck at life')
+    print('You are a terrible programmer')
 if insultNum == 4:
-    print('You Suck at life')
+    print(name, ', well thats a terrible name')
 if insultNum == 5:
-    print('You Suck at life')
+    print('The world hates you')
