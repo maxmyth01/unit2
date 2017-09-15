@@ -14,6 +14,8 @@ if color == 'red':
          print('You will live a long happy life')
     elif num == 4:
         print('You will be a terrific programmer')
+    else:
+        print('invalid number')
         
 elif color == 'blue':
     if num == 1:
@@ -24,6 +26,8 @@ elif color == 'blue':
          print('You will achieve your goals')
     elif num == 4:
         print('You are a terrible programmer')
+    else:
+        print('invalid number')
         
 else:
     print('invalid color')
