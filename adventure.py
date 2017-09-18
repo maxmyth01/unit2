@@ -15,3 +15,4 @@ elif 'no' in mountain:
     print('Have a nice day, as you begin to walk away from the mountain the ground shakes as an boulder falls twards you, GAMEOVER')
 else:
     print('INVAILD INPUT, GAMEOVER')
+    
